@@ -4,10 +4,15 @@
 	<title>Schulung</title>
 	<meta charset="UTF-8">
 	<style>
-	
+	main{
+	text-align:center;
+	margin-top:45vh;
+	}
+
 	</style>
 </head>
 <body>
+<main>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
 
 	Zahl1<br>
@@ -31,8 +36,8 @@
 <?php
 if(isset($_POST["zahl1"]))
 {
-	$zahl1=(float)$_POST["zahl1"];
-	$zahl2=(float)$_POST["zahl2"];
+i	$zahl1=(float)$_POST["zahl1"];
+i	$zahl2=(float)$_POST["zahl2"];
 	$rechenart=$_POST["rechenart"];
 
 	echo "Zahl1: $zahl1";
@@ -68,6 +73,6 @@ if(isset($_POST["zahl1"]))
 
 }
 ?>
-
+</main>
 </body>
 </html>
