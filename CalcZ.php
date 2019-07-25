@@ -8,6 +8,9 @@
 	text-align:center;
 	margin-top:45vh;
 	}
+input[type=submit]{
+display:none;
+}
 
 	</style>
 </head>
